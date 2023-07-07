@@ -1,0 +1,38 @@
+/////////////////////////////////////////////////////////////////////////////////////////
+// INTEGRITY STATEMENT (v4)
+//
+// By signing your name and ID below you are stating that you have agreed
+// to the online academic integrity statement posted on edX:
+// (Course > Assignments > Assignment Information & Policies > Academic Integrity Policy)
+/////////////////////////////////////////////////////////////////////////////////////////
+// I received help from and/or collaborated with:
+
+// Name: Qianghao Wu
+// login ID: 20999205
+//////////////////////////////////////////////////////////////////////////////////////////
+
+a) A justification of translate would be:
+
+Let n be the length of the string
+Outer Loop: Sum[j=0..n]:O(1)
+            = O(n)
+
+b) A justification of count would be:
+
+Let n be the length of the string
+T(n) = O(1) + T(n-1) + T(n+1)
+     = O(2^n)
+
+c) A justification of magic would be:
+
+Let n be the length of str1
+Inner Loop: Sum[j=0..length]:O(1)
+            = O(length)
+Outer Loop: Sum[i=0..n]:O(n)
+            = O(length * n)
+
+d) A justification of magic would be:
+Inner Loop: Sum[j=0..n]:O(1)
+            = O(log(n))
+Outer Loop: Sum[i=0..n]:O(n)
+            = O(n(log(n)))

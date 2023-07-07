@@ -1,0 +1,6 @@
+WARNING: string "alice" is already stored in the hash table.
+WARNING: string "bob" is already stored in the hash table.
+WARNING: string "charles" is already stored in the hash table.
+WARNING: string "alfred" is already stored in the hash table.
+WARNING: string "bob" not removed from the hash table.
+WARNING: string "dave" not removed from the hash table.

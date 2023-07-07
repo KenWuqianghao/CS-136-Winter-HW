@@ -1,0 +1,8 @@
+{
+    "conf.marmoset.course": "CS136",
+    "conf.marmoset.semester": "Winter 2023",
+    "files.associations": {
+        "*.rkt": "racket",
+        "stdio.h": "c"
+    }
+}
